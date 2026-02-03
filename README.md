@@ -63,7 +63,7 @@ You can also paste the skill's GitHub repository link directly into your assista
 
 [OpenClaw](https://www.clawhub.com/)'s public registry already hosts **3,000+ community-built skills** as of February 2, 2026. All skills in this list are sourced directly from that registry, so this is a curated and categorized subset for easier discovery.
 
-From the full registry, **1,715+ skills** were selected by excluding crypto/blockchain/DeFi, spam or bulk-generated content, duplicates, and non-English descriptions. We also tried to filter out risky or harmful skills (abuse, bypass, fraud-related), though we can't guarantee we caught everything.
+From the full registry, **1,705+ skills** were selected by excluding crypto/blockchain/DeFi, spam or bulk-generated content, duplicates, and non-English descriptions. We also tried to filter out risky or harmful skills (abuse, bypass, fraud-related), though we can't guarantee we caught everything.
 
 Inclusion in this list does **not** guarantee a skill is safe or trustworthy. We recommend reviewing a skill's before installing and using tools like Claude Code or Codex to inspect it for potentially harmful behavior.
 
