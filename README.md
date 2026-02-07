@@ -1961,6 +1961,7 @@ If you think a skill was incorrectly excluded or miscategorized, feel free to op
 - [url-shortener](https://github.com/openclaw/skills/tree/main/skills/kesslerio/url-shortener/SKILL.md) - Shorten URLs using is.gd (no auth required).
 - [vpn-rotate-skill](https://github.com/openclaw/skills/tree/main/skills/acastellana/vpn-rotate-skill/SKILL.md) - Bypass API rate limits by rotating VPN servers.
 - [x-api](https://github.com/openclaw/skills/tree/main/skills/lobstergeneralintelligence/x-api/SKILL.md) - Post to X (Twitter) using the official API with OAuth 1.0a.
+- [amai-id](https://www.clawhub.ai/Gonzih/amai-id) - Soul-Bound Keys and Soulchain for persistent agent identity. START BUILDING your trust score now. https://id.amai.net
 
 </details>
 <details>
