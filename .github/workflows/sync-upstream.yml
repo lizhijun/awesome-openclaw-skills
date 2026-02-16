@@ -57,7 +57,7 @@ jobs:
       - name: Commit & push
         if: steps.check.outputs.skip == 'false'
         run: |
-          git add README.md README_zh.md
+          git add README.md README_zh.md scripts/.zh-desc-cache.json
           if git diff --cached --quiet; then
             echo "No README changes to commit."
           else

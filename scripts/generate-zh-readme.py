@@ -1,23 +1,132 @@
 #!/usr/bin/env python3
 """Generate README_zh.md from README.md.
 
-Translates framework text (headings, paragraphs, table headers, etc.) to Chinese
-while keeping skill entries (lines starting with '- [') in English as-is.
+Translates framework text (headings, paragraphs, table headers, categories)
+and skill descriptions to Chinese. Skill names and links stay in English.
+
+Uses Google Translate free API with local caching to avoid re-translating
+unchanged descriptions on subsequent runs.
 
 Usage:
-    python3 scripts/generate-zh-readme.py                # generate README_zh.md
-    python3 scripts/generate-zh-readme.py --patch-readme  # add language switcher to README.md
+    python3 scripts/generate-zh-readme.py                    # generate README_zh.md
+    python3 scripts/generate-zh-readme.py --patch-readme      # add language switcher to README.md
+    python3 scripts/generate-zh-readme.py --no-translate-desc  # skip description translation
 """
 
+import json
 import re
 import sys
+import time
+import urllib.parse
+import urllib.request
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 README_PATH = REPO_ROOT / "README.md"
 ZH_README_PATH = REPO_ROOT / "README_zh.md"
+CACHE_PATH = REPO_ROOT / "scripts" / ".zh-desc-cache.json"
 
 LANG_SWITCHER = "[English](README.md) | [中文](README_zh.md)\n"
+
+# ── Google Translate (free API, no dependencies) ──────────────────────────────
+
+TRANSLATE_URL = "https://translate.googleapis.com/translate_a/single"
+MAX_CHARS_PER_BATCH = 4000  # stay under Google's ~5000 char limit
+BATCH_DELAY = 1.5  # seconds between batches to avoid rate-limiting
+
+
+def _google_translate(text: str, src: str = "en", tgt: str = "zh-CN") -> str:
+    """Translate text via Google Translate free API."""
+    params = urllib.parse.urlencode(
+        {"client": "gtx", "sl": src, "tl": tgt, "dt": "t", "q": text}
+    )
+    url = f"{TRANSLATE_URL}?{params}"
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        data = json.loads(resp.read().decode("utf-8"))
+    return "".join(seg[0] for seg in data[0])
+
+
+def _load_cache() -> dict[str, str]:
+    if CACHE_PATH.exists():
+        return json.loads(CACHE_PATH.read_text(encoding="utf-8"))
+    return {}
+
+
+def _save_cache(cache: dict[str, str]) -> None:
+    CACHE_PATH.write_text(
+        json.dumps(cache, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+
+
+def translate_descriptions(descriptions: list[str]) -> dict[str, str]:
+    """Batch-translate skill descriptions with caching.
+
+    Returns a dict mapping English description → Chinese translation.
+    """
+    cache = _load_cache()
+    new_descs = [d for d in descriptions if d not in cache]
+
+    if not new_descs:
+        return cache
+
+    # Group into batches by character count
+    batches: list[list[str]] = []
+    batch: list[str] = []
+    batch_len = 0
+    for desc in new_descs:
+        added_len = len(desc) + 1  # +1 for newline separator
+        if batch_len + added_len > MAX_CHARS_PER_BATCH and batch:
+            batches.append(batch)
+            batch = []
+            batch_len = 0
+        batch.append(desc)
+        batch_len += added_len
+    if batch:
+        batches.append(batch)
+
+    total = len(new_descs)
+    print(f"Translating {total} skill descriptions in {len(batches)} batches...")
+
+    translated_count = 0
+    for i, b in enumerate(batches, 1):
+        combined = "\n".join(b)
+        try:
+            result = _google_translate(combined)
+            parts = result.split("\n")
+            if len(parts) == len(b):
+                for en, zh in zip(b, parts):
+                    cache[en] = zh.strip()
+                translated_count += len(b)
+            else:
+                # Newline count mismatch — fall back to one-by-one
+                print(f"  Batch {i}/{len(batches)}: line count mismatch, retrying individually...")
+                for desc in b:
+                    try:
+                        cache[desc] = _google_translate(desc).strip()
+                        translated_count += 1
+                        time.sleep(0.3)
+                    except Exception:
+                        cache[desc] = desc  # keep English on failure
+        except Exception as e:
+            print(f"  Batch {i}/{len(batches)} failed: {e}")
+            for desc in b:
+                cache[desc] = desc  # keep English on failure
+
+        print(f"  [{translated_count}/{total}]", end="\r")
+
+        if i < len(batches):
+            time.sleep(BATCH_DELAY)
+
+    print(f"  [{translated_count}/{total}] done.            ")
+
+    _save_cache(cache)
+    return cache
+
+
+# ── Skill line regex ──────────────────────────────────────────────────────────
+
+SKILL_RE = re.compile(r"^(- \[.+?\]\(.+?\)) - (.+)$")
 
 # ── Section heading translations ──────────────────────────────────────────────
 
@@ -72,7 +181,6 @@ CATEGORY_MAP = {
 
 # ── Paragraph / block translations ────────────────────────────────────────────
 # Each tuple: (compiled regex matching the full line, replacement template)
-# Use \g<name> for named groups captured in the pattern.
 
 PARAGRAPH_PATTERNS = [
     # "Discover N community-built OpenClaw skills …"
@@ -259,7 +367,6 @@ def translate_toc_line(line: str) -> str:
     if not line.startswith("|") or "---" in line:
         return line
     cells = line.split("|")
-    # cells[0] and cells[-1] are empty strings from leading/trailing pipes
     translated = [translate_toc_cell(c) if c.strip() else c for c in cells]
     return "|".join(translated)
 
@@ -277,14 +384,13 @@ def translate_summary(line: str) -> str:
         return line
     prefix, name, suffix = m.group(1), m.group(2), m.group(3)
     zh_name = CATEGORY_MAP.get(name, name)
-    # Add id attribute for TOC anchor linking
     anchor = name.lower().replace(" & ", "--").replace(" ", "-")
     return f'<summary><h3 style="display:inline" id="{anchor}">{zh_name}</h3></summary>'
 
 
 # ── Main translation logic ────────────────────────────────────────────────────
 
-def translate_readme(lines: list[str]) -> list[str]:
+def translate_readme(lines: list[str], desc_translations: dict[str, str]) -> list[str]:
     out: list[str] = []
     in_code_block = False
     in_toc = False
@@ -305,9 +411,13 @@ def translate_readme(lines: list[str]) -> list[str]:
         if stripped == LANG_SWITCHER.strip():
             continue
 
-        # Skill entry lines — keep as-is
+        # Skill entry lines — translate description part
         if stripped.startswith("- ["):
-            out.append(line)
+            m = SKILL_RE.match(stripped)
+            if m and m.group(2) in desc_translations:
+                out.append(f"{m.group(1)} - {desc_translations[m.group(2)]}\n")
+            else:
+                out.append(line)
             continue
 
         # Headings
@@ -318,7 +428,6 @@ def translate_readme(lines: list[str]) -> list[str]:
                 matched_heading = True
                 break
         if matched_heading:
-            # Detect start/end of TOC section
             if stripped == "## Table of Contents":
                 in_toc = True
             elif stripped.startswith("## ") and stripped != "## Table of Contents":
@@ -375,10 +484,26 @@ def main():
         patch_readme()
         return
 
-    lines = README_PATH.read_text(encoding="utf-8").splitlines(keepends=True)
-    translated = translate_readme(lines)
+    skip_desc = "--no-translate-desc" in sys.argv
 
-    # Prepend language switcher to zh readme
+    lines = README_PATH.read_text(encoding="utf-8").splitlines(keepends=True)
+
+    # Collect all skill descriptions
+    desc_translations: dict[str, str] = {}
+    if not skip_desc:
+        all_descs: list[str] = []
+        seen: set[str] = set()
+        for line in lines:
+            m = SKILL_RE.match(line.rstrip("\n"))
+            if m:
+                desc = m.group(2)
+                if desc not in seen:
+                    all_descs.append(desc)
+                    seen.add(desc)
+        desc_translations = translate_descriptions(all_descs)
+
+    translated = translate_readme(lines, desc_translations)
+
     header = LANG_SWITCHER + "\n"
     ZH_README_PATH.write_text(header + "".join(translated), encoding="utf-8")
     print(f"Generated {ZH_README_PATH.relative_to(REPO_ROOT)}")

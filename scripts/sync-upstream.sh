@@ -43,7 +43,7 @@ echo "Generating README_zh.md..."
 python3 "$SCRIPT_DIR/generate-zh-readme.py"
 
 # ── Stage changes and show summary ────────────────────────────────────────────
-git add README.md README_zh.md
+git add README.md README_zh.md scripts/.zh-desc-cache.json
 
 if git diff --cached --quiet; then
     echo ""
