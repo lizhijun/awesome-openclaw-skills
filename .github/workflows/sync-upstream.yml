@@ -1,0 +1,66 @@
+name: Sync Upstream & Generate Chinese README
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # UTC 06:00 daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Fetch upstream
+        run: |
+          git remote add upstream https://github.com/VoltAgent/awesome-clawdbot-skills.git || true
+          git fetch upstream
+
+      - name: Check for new commits
+        id: check
+        run: |
+          LOCAL=$(git rev-parse HEAD)
+          UPSTREAM=$(git rev-parse upstream/main)
+          if [ "$LOCAL" = "$UPSTREAM" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "Already up to date."
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            echo "New commits found on upstream."
+          fi
+
+      - name: Merge upstream
+        if: steps.check.outputs.skip == 'false'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git merge upstream/main --no-edit
+
+      - name: Set up Python
+        if: steps.check.outputs.skip == 'false'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate Chinese README
+        if: steps.check.outputs.skip == 'false'
+        run: |
+          python3 scripts/generate-zh-readme.py --patch-readme
+          python3 scripts/generate-zh-readme.py
+
+      - name: Commit & push
+        if: steps.check.outputs.skip == 'false'
+        run: |
+          git add README.md README_zh.md
+          if git diff --cached --quiet; then
+            echo "No README changes to commit."
+          else
+            git commit -m "sync: merge upstream + update README_zh.md"
+          fi
+          git push
