@@ -3188,6 +3188,7 @@ If you think a skill was incorrectly excluded or miscategorized, feel free to op
 - [nano-banana-antigravity](https://github.com/openclaw/skills/tree/main/skills/cgnl/nano-banana-antigravity/SKILL.md) - Generate or edit images via Nano Banana Pro
 - [one-skill-to-rule-them-all](https://github.com/openclaw/skills/tree/main/skills/hichana/one-skill-to-rule-them-all/SKILL.md) - Adversarial security analysis skill
 - [openclaw-skills-security-checker](https://github.com/openclaw/skills/tree/main/skills/digitaladaption/openclaw-skills-security-checker/SKILL.md) - Security scanner
+- [openclaw-backup-safe](https://clawhub.ai/alessandropcostabr/openclaw-backup-safe) - Hardened OpenClaw backup and safe restore rollback.
 - [otp-challenger](https://github.com/openclaw/skills/tree/main/skills/ryancnelson/otp-challenger/SKILL.md) - Challenge users to prove identity with one-time passwords or a YubiKey press.
 - [pdauth](https://github.com/openclaw/skills/tree/main/skills/g9pedro/pdauth/SKILL.md) - Dynamic OAuth for AI agents via Pipedream.
 - [samma-suit](https://clawhub.ai/OneZeroEight-ai/samma-suit) - Add 8 security governance layers to your OpenClaw agent — budget controls, permissions, audit logging, kill switch, identity signing, skill vetting, and process isolation.
