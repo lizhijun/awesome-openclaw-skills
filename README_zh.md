@@ -2470,6 +2470,7 @@ OpenClaw 的公共注册中心（ClawHub）拥有 **5,705 个社区构建的技�
 - [brainstorming-studio](https://github.com/openclaw/skills/tree/main/skills/myboxstorage/brainstorming-studio/SKILL.md) - ﻿# 🧠 技能路由器（技能编排器）
 - [business-plan](https://github.com/openclaw/skills/tree/main/skills/jk-0001/business-plan/SKILL.md) - 为个体企业家撰写、构建和更新商业计划。
 - [bvg-route](https://github.com/openclaw/skills/tree/main/skills/jaysonsantos/bvg-route/SKILL.md) - 柏林公共交通 (BVG) 路线规划
+- [capmetro-skill](https://github.com/openclaw/skills/tree/main/skills/brianleach/capmetro-skill/SKILL.md) - Austin CapMetro 交通 — 实时车辆位置、下一站到达、服务提醒、路线信息以及公共汽车和铁路的行程规划。
 - [charger](https://github.com/openclaw/skills/tree/main/skills/borahm/charger/SKILL.md) - 通过 Google 地方信息查看电动汽车充电器的可用性（收藏夹、附近搜索）。
 - [copey-flight-tracker](https://github.com/openclaw/skills/tree/main/skills/copey02/copey-flight-tracker/SKILL.md) - 实时跟踪航班的详细状态
 - [flight-search](https://github.com/openclaw/skills/tree/main/skills/awlevin/flight-search/SKILL.md) - 在 Google Flights 中搜索价格、时间和航空公司。
@@ -3191,6 +3192,7 @@ OpenClaw 的公共注册中心（ClawHub）拥有 **5,705 个社区构建的技�
 - [nano-banana-antigravity](https://github.com/openclaw/skills/tree/main/skills/cgnl/nano-banana-antigravity/SKILL.md) - 通过 Nano Banana Pro 生成或编辑图像
 - [one-skill-to-rule-them-all](https://github.com/openclaw/skills/tree/main/skills/hichana/one-skill-to-rule-them-all/SKILL.md) - 对抗性安全分析技能
 - [openclaw-skills-security-checker](https://github.com/openclaw/skills/tree/main/skills/digitaladaption/openclaw-skills-security-checker/SKILL.md) - 安全扫描仪
+- [openclaw-backup-safe](https://clawhub.ai/alessandropcostabr/openclaw-backup-safe) - 强化的 OpenClaw 备份和安全恢复回滚。
 - [otp-challenger](https://github.com/openclaw/skills/tree/main/skills/ryancnelson/otp-challenger/SKILL.md) - 要求用户使用一次性密码或 YubiKey 按键来证明身份。
 - [pdauth](https://github.com/openclaw/skills/tree/main/skills/g9pedro/pdauth/SKILL.md) - 通过 Pipedream 实现 AI 代理的动态 OAuth。
 - [samma-suit](https://clawhub.ai/OneZeroEight-ai/samma-suit) - 向您的 OpenClaw 代理添加 8 个安全治理层 - 预算控制、权限、审核日志记录、终止开关、身份签名、技能审查和进程隔离。

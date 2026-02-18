@@ -2863,5 +2863,7 @@
   "Local approval system for managing agent permissions.": "用于管理代理权限的本地审批系统。",
   "Security and vulnerability scanner for OpenClaw code": "OpenClaw 代码的安全和漏洞扫描器",
   "Use when building Towns Protocol bots - covers SDK": "构建 Towns Protocol 机器人时使用 - 涵盖 SDK",
-  "description: Union protocol for AI agents.": "描述：AI 代理的联合协议。"
+  "description: Union protocol for AI agents.": "描述：AI 代理的联合协议。",
+  "Austin CapMetro transit — real-time vehicle positions, next arrivals, service alerts, route info, and trip planning for buses and rail.": "Austin CapMetro 交通 — 实时车辆位置、下一站到达、服务提醒、路线信息以及公共汽车和铁路的行程规划。",
+  "Hardened OpenClaw backup and safe restore rollback.": "强化的 OpenClaw 备份和安全恢复回滚。"
 }
