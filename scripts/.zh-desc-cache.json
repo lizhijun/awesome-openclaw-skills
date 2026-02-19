@@ -2865,5 +2865,6 @@
   "Use when building Towns Protocol bots - covers SDK": "构建 Towns Protocol 机器人时使用 - 涵盖 SDK",
   "description: Union protocol for AI agents.": "描述：AI 代理的联合协议。",
   "Austin CapMetro transit — real-time vehicle positions, next arrivals, service alerts, route info, and trip planning for buses and rail.": "Austin CapMetro 交通 — 实时车辆位置、下一站到达、服务提醒、路线信息以及公共汽车和铁路的行程规划。",
-  "Hardened OpenClaw backup and safe restore rollback.": "强化的 OpenClaw 备份和安全恢复回滚。"
+  "Hardened OpenClaw backup and safe restore rollback.": "强化的 OpenClaw 备份和安全恢复回滚。",
+  "Real-time human evaluation benchmark for AI agent responses": "人工智能代理响应的实时人类评估基准"
 }
