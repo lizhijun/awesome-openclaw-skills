@@ -1121,7 +1121,6 @@ If you think a skill was incorrectly excluded or miscategorized, feel free to op
 - [deep-research](https://github.com/openclaw/skills/tree/main/skills/seyhunak/deep-research/SKILL.md) - Deep Research Agent specializes in complex, multi-step research
 - [deepresearch-conversation](https://github.com/openclaw/skills/tree/main/skills/ide-rea/deepresearch-conversation/SKILL.md) - Deep ReSearch Conversation is provided
 - [deepresearchwork](https://github.com/openclaw/skills/tree/main/skills/jiacode/deepresearchwork/SKILL.md) - Comprehensive research framework that combines web search
-- [deeps](https://github.com/openclaw/skills/tree/main/skills/ttboy/deeps/SKILL.md) - Deep Research Agent specializes in complex, multi-step research tasks
 - [denario-skill](https://github.com/openclaw/skills/tree/main/skills/jmanhype/denario-skill/SKILL.md) - Wraps the framework to automate the scientific research process.
 - [dhmz-weather](https://github.com/openclaw/skills/tree/main/skills/faleksic/dhmz-weather/SKILL.md) - Get Croatian weather data, forecasts, and alerts from DHMZ
 - [dns-lookup](https://github.com/openclaw/skills/tree/main/skills/xejrax/dns-lookup/SKILL.md) - Resolve hostnames to IP addresses using `dig` from bind-utils.
@@ -1148,7 +1147,6 @@ If you think a skill was incorrectly excluded or miscategorized, feel free to op
 - [google-news-api](https://github.com/openclaw/skills/tree/main/skills/phheng/google-news-api/SKILL.md) - Scrape structured news data from Google News automatically.
 - [google-search](https://github.com/openclaw/skills/tree/main/skills/mxfeinberg/google-search/SKILL.md) - Search the web using Google Custom Search Engine (PSE).
 - [google-teneo](https://github.com/openclaw/skills/tree/main/skills/firestream792/google-teneo/SKILL.md) - The agent gives you the ability to search Google and retrieve
-- [gorger](https://github.com/openclaw/skills/tree/main/skills/ttboy/gorger/SKILL.md) - Deep Research Agent specializes in complex, multi-step research tasks
 - [grok-search](https://github.com/openclaw/skills/tree/main/skills/notabhay/grok-search/SKILL.md) - Search web or X/Twitter
 - [growth-marketer](https://github.com/openclaw/skills/tree/main/skills/metehan777/growth-marketer/SKILL.md) - : marketing, seo, conversion-optimization, popup-builder
 - [hackernews](https://github.com/openclaw/skills/tree/main/skills/gchapim/hackernews/SKILL.md) - Browse and search Hacker News.
@@ -2076,7 +2074,6 @@ If you think a skill was incorrectly excluded or miscategorized, feel free to op
 - [opencode-controller](https://github.com/openclaw/skills/tree/main/skills/karatla/opencode-controller/SKILL.md) - Control and operate Opencode via slash commands.
 - [openrouter-transcribe](https://github.com/openclaw/skills/tree/main/skills/obviyus/openrouter-transcribe/SKILL.md) - Transcribe audio files via OpenRouter
 - [oracle](https://github.com/openclaw/skills/tree/main/skills/steipete/oracle/SKILL.md) - Use the @steipete/oracle CLI to bundle a prompt plus the right files and get
-- [ouyang](https://github.com/openclaw/skills/tree/main/skills/ttboy/ouyang/SKILL.md) - Local RAG system for agent memory using ChromaDB and sentence-transformers.
 - [pandas-construction-analysis](https://github.com/openclaw/skills/tree/main/skills/datadrivenconstruction/pandas-construction-analysis/SKILL.md) - Comprehensive Pandas
 - [patent-scanner](https://github.com/openclaw/skills/tree/main/skills/leegitw/patent-scanner/SKILL.md) - Describe your concept and discover what makes it distinctive
 - [peft](https://github.com/openclaw/skills/tree/main/skills/desperado991128/peft/SKILL.md) - Parameter-efficient fine-tuning for LLMs using LoRA, QLoRA, and 25+ methods.
@@ -2155,6 +2152,7 @@ If you think a skill was incorrectly excluded or miscategorized, feel free to op
 - [win-mouse-native](https://github.com/openclaw/skills/tree/main/skills/lurklight/win-mouse-native/SKILL.md) - Native Windows mouse control (move, click, drag)
 - [xai](https://github.com/openclaw/skills/tree/main/skills/mvanhorn/xai/SKILL.md) - Chat with Grok models via xAI API.
 - [xuezh](https://github.com/openclaw/skills/tree/main/skills/local/xuezh/SKILL.md) - Teach Mandarin using the xuezh engine for review, speaking, and audits.
+- [openclaw-validate](https://github.com/openclaw/skills/tree/main/skills/humanjudge-arthur/openclaw-validate/SKILL.md) - Real-time human evaluation benchmark for AI agent responses
 
 </details>
 
