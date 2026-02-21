@@ -2866,5 +2866,18 @@
   "description: Union protocol for AI agents.": "描述：AI 代理的联合协议。",
   "Austin CapMetro transit — real-time vehicle positions, next arrivals, service alerts, route info, and trip planning for buses and rail.": "Austin CapMetro 交通 — 实时车辆位置、下一站到达、服务提醒、路线信息以及公共汽车和铁路的行程规划。",
   "Hardened OpenClaw backup and safe restore rollback.": "强化的 OpenClaw 备份和安全恢复回滚。",
-  "Real-time human evaluation benchmark for AI agent responses": "人工智能代理响应的实时人类评估基准"
+  "Real-time human evaluation benchmark for AI agent responses": "人工智能代理响应的实时人类评估基准",
+  "Swap faces between images using EachLabs AI.": "使用 EachLabs AI 在图像之间交换面孔。",
+  "Generate fashion imagery, virtual try-on, runway videos.": "生成时尚图像、虚拟试穿、时装秀视频。",
+  "Edit, transform, upscale images using 200+ AI models.": "使用 200 多个 AI 模型编辑、转换、升级图像。",
+  "Generate images with Flux, GPT Image, Gemini, Imagen.": "使用 Flux、GPT Image、Gemini、Imagen 生成图像。",
+  "Edit videos with lip sync, translation, subtitles.": "使用口型同步、翻译、字幕编辑视频。",
+  "Generate videos from text/images using AI models.": "使用 AI 模型从文本/图像生成视频。",
+  "Web, X, AI search and page crawl via Desearch (desearch.ai).": "通过 Desearch (desearch.ai) 进行 Web、X、AI 搜索和页面爬行。",
+  "Search books, get reviews, and manage reading lists on Goodreads.": "在 Goodreads 上搜索书籍、获取评论并管理阅读列表。",
+  "Live rate-limit awareness for Claude.ai and OpenAI with automatic pacing tiers.": "具有自动节奏层的 Claude.ai 和 OpenAI 的实时速率限制感知。",
+  "Generate songs, instrumentals, lyrics, podcasts using Mureka AI.": "使用 Mureka AI 生成歌曲、乐器、歌词、播客。",
+  "TTS, STT, voice conversion using ElevenLabs, Whisper, RVC.": "TTS、STT、使用 ElevenLabs、Whisper、RVC 进行语音转换。",
+  "Generate e-commerce product photography and videos.": "生成电子商务产品照片和视频。",
+  "Find products with aggregated critic reviews, normalized into a single score.": "查找具有汇总评论家评论的产品，并标准化为单一分数。"
 }
