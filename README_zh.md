@@ -2918,7 +2918,6 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [govee-lights](https://github.com/openclaw/skills/tree/main/skills/joeynyc/govee-lights/SKILL.md) - 通过 Govee API 控制 Govee 智能灯。
 - [govpredict](https://github.com/openclaw/skills/tree/main/skills/seyhunak/govpredict/SKILL.md) - 更智慧的政府采购 - 简化合规、招标
 - [home-music](https://github.com/openclaw/skills/tree/main/skills/asteinberger/home-music/SKILL.md) - 结合Spotify播放控制全屋音乐场景
-- [homeassistant](https://github.com/openclaw/skills/tree/main/skills/dbhurley/homeassistant/SKILL.md) - 控制家庭助理 - 智能插头、灯光、场景
 - [homebridge](https://github.com/openclaw/skills/tree/main/skills/jiasenl/clawdbot-skill-homebridge/SKILL.md) - 通过 Homebridge Config UI X 控制智能家居设备
 - [homey](https://github.com/openclaw/skills/tree/main/skills/maxsumrall/homey/SKILL.md) - 通过本地 (LAN/VPN) 或云 API 控制 Athom Homey 智能家居设备。
 - [homey-cli](https://github.com/openclaw/skills/tree/main/skills/krausefx/homey-cli/SKILL.md) - 控制 Homey 家庭自动化中心。
