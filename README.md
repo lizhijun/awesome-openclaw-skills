@@ -2917,7 +2917,6 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [govee-lights](https://github.com/openclaw/skills/tree/main/skills/joeynyc/govee-lights/SKILL.md) - Control Govee smart lights via the Govee API.
 - [govpredict](https://github.com/openclaw/skills/tree/main/skills/seyhunak/govpredict/SKILL.md) - Smarter Government Procurement - Streamline compliance, tendering
 - [home-music](https://github.com/openclaw/skills/tree/main/skills/asteinberger/home-music/SKILL.md) - Control whole-house music scenes combining Spotify playback
-- [homeassistant](https://github.com/openclaw/skills/tree/main/skills/dbhurley/homeassistant/SKILL.md) - Control Home Assistant - smart plugs, lights, scenes
 - [homebridge](https://github.com/openclaw/skills/tree/main/skills/jiasenl/clawdbot-skill-homebridge/SKILL.md) - Control smart home devices via Homebridge Config UI X
 - [homey](https://github.com/openclaw/skills/tree/main/skills/maxsumrall/homey/SKILL.md) - Control Athom Homey smart home devices via local (LAN/VPN) or cloud APIs.
 - [homey-cli](https://github.com/openclaw/skills/tree/main/skills/krausefx/homey-cli/SKILL.md) - Control Homey home automation hub.
