@@ -23,10 +23,10 @@
 </a> 
 
 [![AI Agent Papers](https://img.shields.io/badge/AI%20Agent-Research%20Papers-b31b1b)](https://github.com/VoltAgent/awesome-ai-agent-papers)
-![Skills Count](https://img.shields.io/badge/skills-2868-blue?style=flat-square)
-![Last Update](https://img.shields.io/github/last-commit/VoltAgent/awesome-clawdbot-skills?label=Last%20update&style=flat-square)
+[![Skills Count](https://img.shields.io/badge/skills-2868-blue?style=flat-square)](#table-of-contents)
+[![Last Update](https://img.shields.io/github/last-commit/VoltAgent/awesome-clawdbot-skills?label=Last%20update&style=flat-square)](https://github.com/VoltAgent/awesome-clawdbot-skills/pulls?q=is%3Apr+is%3Amerged+sort%3Aupdated-desc)
 [![Discord](https://img.shields.io/discord/1361559153780195478.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://s.voltagent.dev/discord)
-[![GitHub forks](https://img.shields.io/github/forks/VoltAgent/awesome-clawdbot-skills?style=social)](https://github.com/VoltAgent/awesome-claude-skills/network/members)
+[![GitHub forks](https://img.shields.io/github/forks/VoltAgent/awesome-clawdbot-skills?style=social)](https://github.com/VoltAgent/awesome-clawdbot-skills/network/members)
 </div>
 
 # Awesome OpenClaw 技能合集
@@ -95,14 +95,6 @@ Before installing or using any Agent Skill, review potential security risks and 
 If you believe a skill in this list should be flagged or has a security concern, please [open an issue](https://github.com/VoltAgent/awesome-clawdbot-skills/issues) so we can review it.
 
 
-<br/>
-
-<a href="https://github.com/VoltAgent/voltagent">
-<img width="1390" height="296" alt="social" src="https://github.com/user-attachments/assets/5d8822c0-e97b-4183-a71e-a922ab88e1a0" />
-</a>
-
-<br/>
-
 ## 目录
 
 | | | |
@@ -118,6 +110,44 @@ If you believe a skill in this list should be flagged or has a security concern,
 |[搜索与研究](#search--research) (253)|[交通出行](#transportation) (76)|[游戏](#gaming) (61)|
 |[Clawdbot 工具](#clawdbot-tools) (120)|[个人发展](#personal-development) (56)|[代理间协议](#agent-to-agent-protocols) (18)|
 |[CLI 工具](#cli-utilities) (129)|[健康与健身](#health--fitness) (55)| |
+
+
+## OpenClaw Deployment Stack
+
+ Setup, hosting, and deployment providers for OpenClaw agents.
+
+**Sponsor spots are reserved for hosting, deployment, and setup providers serving OpenClaw developers & users.**
+
+📩 For sponsorship inquiries, reach out at necati@voltagent.dev
+
+<br/>
+
+<div align="center">
+
+<a href="#your-link-here">
+<img src="https://placehold.co/800x120/1a1a2e/FFD700?text=Gold+Sponsor+&font=montserrat" alt="Gold Sponsor" width="800" height="120" />
+</a>
+
+<sub>Your product description here — a one-liner about what you offer to OpenClaw developers.</sub>
+
+<br/>
+
+<a href="#your-link-here"><img src="https://placehold.co/380x90/1a1a2e/C0C0C0?text=Silver+Sponsor&font=montserrat" alt="Silver Sponsor" width="380" height="90" /></a>&nbsp;&nbsp;&nbsp;<a href="#your-link-here"><img src="https://placehold.co/380x90/1a1a2e/C0C0C0?text=Silver+Sponsor&font=montserrat" alt="Silver Sponsor" width="380" height="90" /></a>
+
+<sub>Short description here.</sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sub>Short description here.</sub>
+
+<br/>
+
+
+
+
+<a href="#your-link-here"><img src="https://placehold.co/220x60/1a1a2e/CD7F32?text=Bronze+Sponsor&font=montserrat" alt="Bronze Sponsor" width="220" height="60" /></a>&nbsp;&nbsp;<a href="#your-link-here"><img src="https://placehold.co/220x60/1a1a2e/CD7F32?text=Bronze+Sponsor&font=montserrat" alt="Bronze Sponsor" width="220" height="60" /></a>&nbsp;&nbsp;<a href="#your-link-here"><img src="https://placehold.co/220x60/1a1a2e/CD7F32?text=Bronze+Sponsor&font=montserrat" alt="Bronze Sponsor" width="220" height="60" /></a>
+
+</div>
+
+<br/>
+
+
 
 
 
@@ -1229,6 +1259,7 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [tavily](https://github.com/openclaw/skills/tree/main/skills/arun-8687/tavily-search/SKILL.md) - 通过 Tavily API 进行人工智能优化的网络搜索。
 - [tg](https://github.com/openclaw/skills/tree/main/skills/arein/tg/SKILL.md) - Telegram CLI 用于阅读、搜索。
 - [think-cog](https://github.com/openclaw/skills/tree/main/skills/nitishgargiitd/think-cog/SKILL.md) - 复杂的想法需要迭代，而不是对话。
+- [timemap](https://github.com/openclaw/skills/tree/main/skills/alexpolonsky/timemap/SKILL.md) - 搜索特拉维夫和海法的历史娱乐场所。
 - [todozi](https://github.com/openclaw/skills/tree/main/skills/bgengs/todozi/SKILL.md) - Todozi 艾森豪威尔矩阵 API 客户端 + LangChain 工具。
 - [transcript](https://github.com/openclaw/skills/tree/main/skills/therohitdas/transcript/SKILL.md) - 获取任何 YouTube 视频的文字记录 — 用于摘要
 - [transcriptapi](https://github.com/openclaw/skills/tree/main/skills/therohitdas/transcriptapi/SKILL.md) - 完整的 TranscriptAPI 工具包 — 获取 YouTube 成绩单
@@ -1721,6 +1752,7 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [imap-email](https://github.com/openclaw/skills/tree/main/skills/mvarrieur/imap-email/SKILL.md) - 通过 IMAP（ProtonMail Bridge、Gmail 等）阅读和管理电子邮件。
 - [jira](https://github.com/openclaw/skills/tree/main/skills/jdrhyne/jira/SKILL.md) - 通过 jira-cli 管理 Jira 问题、看板、冲刺和项目。
 - [kanbanflow-skill](https://github.com/openclaw/skills/tree/main/skills/abakermi/kanbanflow-skill/SKILL.md) - <名称>看板流</名称>
+- [libby-book-monitor](https://github.com/openclaw/skills/tree/main/skills/alexpolonsky/libby-book-monitor/SKILL.md) - 跟踪 Libby/OverDrive 图书馆的图书可用性。
 - [linear](https://github.com/openclaw/skills/tree/main/skills/manuelhettich/linear/SKILL.md) - 查询和管理线性问题、项目。
 - [linear-issues](https://github.com/openclaw/skills/tree/main/skills/emrekilinc/linear-issues/SKILL.md) - 与 Linear 交互以进行问题跟踪。
 - [locu](https://github.com/openclaw/skills/tree/main/skills/davidsmorais/locu/SKILL.md) - 通过 Locu 的公共 API 管理任务和项目。
@@ -2112,6 +2144,7 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [remove-analytics](https://github.com/openclaw/skills/tree/main/skills/jeftekhari/remove-analytics/SKILL.md) - 从项目中安全删除 Google Analytics。
 - [senior-data-engineer](https://github.com/openclaw/skills/tree/main/skills/alirezarezvani/senior-data-engineer/SKILL.md) - 用于构建可扩展的数据工程技能
 - [senior-data-scientist](https://github.com/openclaw/skills/tree/main/skills/alirezarezvani/senior-data-scientist/SKILL.md) - 世界一流的数据科学技能
+- [strikeradar](https://github.com/openclaw/skills/tree/main/skills/alexpolonsky/strikeradar/SKILL.md) - 通过开源信号监控美伊袭击概率。
 - [supabase](https://github.com/openclaw/skills/tree/main/skills/stopmoclay/supabase/SKILL.md) - 连接到 Supabase 进行数据库操作、矢量搜索和存储。
 - [supermetrics-openclawd](https://github.com/openclaw/skills/tree/main/skills/bartschneider/supermetrics-openclawd/SKILL.md) - 官方 Supermetrics 技能。
 - [sure](https://github.com/openclaw/skills/tree/main/skills/bt0r/sure/SKILL.md) - 从 Sure 个人财务委员会获取报告
@@ -2528,6 +2561,7 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [huckleberry](https://github.com/openclaw/skills/tree/main/skills/jayhickey/huckleberry/SKILL.md) - 通过 Huckleberry 跟踪婴儿的睡眠、喂养、尿布和生长情况
 - [intervals-icu](https://github.com/openclaw/skills/tree/main/skills/pseuss/intervals-icu-api/SKILL.md) - 访问和管理培训数据的完整指南
 - [jasper-configguard](https://github.com/openclaw/skills/tree/main/skills/emberdesire/jasper-configguard/SKILL.md) - OpenClaw 的安全配置更改具有自动功能
+- [maccabi-pharm-search](https://github.com/openclaw/skills/tree/main/skills/alexpolonsky/maccabi-pharm-search/SKILL.md) - 检查以色列 Maccabi 药房的药品库存。
 - [muscle-gain](https://github.com/openclaw/skills/tree/main/skills/jhillin8/muscle-gain/SKILL.md) - 通过体重进展、蛋白质追踪来追踪肌肉增长
 - [oura](https://github.com/openclaw/skills/tree/main/skills/ruhrpotter/oura/SKILL.md) - 大浦
 - [oura-analytics](https://github.com/openclaw/skills/tree/main/skills/kesslerio/oura-analytics/SKILL.md) - Oura Ring 数据集成和分析。
@@ -2855,6 +2889,7 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [marktplaats](https://github.com/openclaw/skills/tree/main/skills/pvoo/marktplaats/SKILL.md) - 通过过滤在所有类别中搜索 Marktplaats.nl 分类
 - [moltlist-marketplace](https://github.com/openclaw/skills/tree/main/skills/koriyoshi2041/moltlist-marketplace/SKILL.md) - 与 moltlist.com 代理互动
 - [moltpho](https://github.com/openclaw/skills/tree/main/skills/unifiedh/moltpho/SKILL.md) - 通过 Moltpho 在亚马逊上自主购物 - 搜索产品、管理信用
+- [ontopo](https://github.com/openclaw/skills/tree/main/skills/alexpolonsky/ontopo/SKILL.md) - 在 Ontopo 上搜索以色列餐厅并查看餐桌供应情况。
 - [ordercli](https://github.com/openclaw/skills/tree/main/skills/steipete/ordercli/SKILL.md) - 仅 Foodora CLI 用于检查过去的订单和活动订单状态
 - [paprika](https://github.com/openclaw/skills/tree/main/skills/mjrussell/paprika/SKILL.md) - 从 Paprika Recipe Manager 访问食谱、膳食计划和购物清单。
 - [pcmiler](https://github.com/openclaw/skills/tree/main/skills/nchoudhury-trimble/pcmiler/SKILL.md) - PCMier REST API 提供了检索一系列的方法
@@ -3194,6 +3229,11 @@ If you believe a skill in this list should be flagged or has a security concern,
 </details>
 
 <br/>
+
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=VoltAgent/awesome-openclaw-skills&type=Date)](https://star-history.com/#VoltAgent/awesome-openclaw-skills&Date)
 
 ## 🤝 贡献
 
