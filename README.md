@@ -98,7 +98,7 @@ If you believe a skill in this list should be flagged or has a security concern,
 
 | | | |
 |---|---|---|
-| [Coding Agents & IDEs](#coding-agents--ides) (133) | [Marketing & Sales](#marketing--sales) (143) | [Communication](#communication) (132) |
+| [Coding Agents & IDEs](#coding-agents--ides) (133) | [Marketing & Sales](#marketing--sales) (143) | [Communication](#communication) (133) |
 | [Git & GitHub](#git--github) (66) | [Productivity & Tasks](#productivity--tasks) (135) | [Speech & Transcription](#speech--transcription) (65) |
 | [Moltbook](#moltbook) (51) | [AI & LLMs](#ai--llms) (287) | [Smart Home & IoT](#smart-home--iot) (56) |
 | [Web & Frontend Development](#web--frontend-development) (202) | [Data & Analytics](#data--analytics) (46) | [Shopping & E-commerce](#shopping--e-commerce) (51) |
@@ -1255,6 +1255,7 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [srt](https://github.com/openclaw/skills/tree/main/skills/khj809/srt/SKILL.md) - Korean SRT (Super Rapid Train) search, reservation, and booking management.
 - [startups](https://github.com/openclaw/skills/tree/main/skills/networkingit/startups/SKILL.md) - Research startups, funding rounds, acquisitions, and hiring trends
 - [super-websearch-realtime](https://github.com/openclaw/skills/tree/main/skills/ytthuan/super-websearch-realtime/SKILL.md) - Priority live web search for real-time
+- [swarm-safety](https://github.com/openclaw/skills/tree/main/skills/rsavitt/swarm-safety/SKILL.md) - Multi-agent AI safety simulation with soft probabilistic labels
 - [tavily](https://github.com/openclaw/skills/tree/main/skills/arun-8687/tavily-search/SKILL.md) - AI-optimized web search via Tavily API.
 - [tg](https://github.com/openclaw/skills/tree/main/skills/arein/tg/SKILL.md) - Telegram CLI for reading, searching.
 - [think-cog](https://github.com/openclaw/skills/tree/main/skills/nitishgargiitd/think-cog/SKILL.md) - Complex ideas need iteration, not conversation.
@@ -2261,6 +2262,7 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [youtube-voice-summarizer-elevenlabs](https://github.com/openclaw/skills/tree/main/skills/franciscoandsam/youtube-voice-summarizer-elevenlabs/SKILL.md) - Transform YouTube
 - [youtube-watcher](https://github.com/openclaw/skills/tree/main/skills/michaelgathara/youtube-watcher/SKILL.md) - Fetch and read transcripts from YouTube videos.
 - [ytmusic](https://github.com/openclaw/skills/tree/main/skills/gentrycopsy/ytmusic/SKILL.md) - YouTube Music library, playlists.
+- [polaroteam/moltdj](https://github.com/polaroteam/moltdj-skill) - AI music and podcast platform — generate tracks, discover trending music, earn tips and royalties.
 
 </details>
 
@@ -2618,6 +2620,7 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [clawemail-admin](https://github.com/openclaw/skills/tree/main/skills/cto1/clawemail-admin/SKILL.md) - Provision and manage @clawemail.com Google Workspace email
 - [clawgang](https://github.com/openclaw/skills/tree/main/skills/syslink/clawgang/SKILL.md) - ClawGang social skill — lets your agent socialize on clawgang.ai: post
 - [clawlink](https://github.com/openclaw/skills/tree/main/skills/davemorin/clawlink/SKILL.md) - Encrypted Clawbot-to-Clawbot messaging.
+- [clawring](https://github.com/openclaw/skills/tree/main/skills/marcospgp/clawring/SKILL.md) - Real phone calls from your bot.
 - [collaboration-helper](https://github.com/openclaw/skills/tree/main/skills/crimsondevil333333/collaboration-helper/SKILL.md) - Track action items and coordination
 - [communication-skill](https://github.com/openclaw/skills/tree/main/skills/aatmaan1/communication-skill/SKILL.md) - Deep Listening & Response Crafting - Transform
 - [composio-integration](https://github.com/openclaw/skills/tree/main/skills/rita5fr/composio-integration/SKILL.md) - Access 600+ apps and services through Composio's
