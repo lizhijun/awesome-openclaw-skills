@@ -99,7 +99,7 @@ If you believe a skill in this list should be flagged or has a security concern,
 
 | | | |
 |---|---|---|
-|[编码代理与 IDE](#coding-agents--ides) (133)|[市场营销与销售](#marketing--sales) (143)|[通讯](#communication) (132)|
+|[编码代理与 IDE](#coding-agents--ides) (133)|[市场营销与销售](#marketing--sales) (143)|[通讯](#communication) (133)|
 |[Git 与 GitHub](#git--github) (66)|[生产力与任务管理](#productivity--tasks) (135)|[语音与转录](#speech--transcription) (65)|
 |[Moltbook](#moltbook) (51)|[AI 与大语言模型](#ai--llms) (287)|[智能家居与物联网](#smart-home--iot) (56)|
 |[Web 与前端开发](#web--frontend-development) (202)|[数据与分析](#data--analytics) (46)|[购物与电子商务](#shopping--e-commerce) (51)|
@@ -1256,6 +1256,7 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [srt](https://github.com/openclaw/skills/tree/main/skills/khj809/srt/SKILL.md) - 韩国SRT（超快速列车）搜索、预订和预订管理。
 - [startups](https://github.com/openclaw/skills/tree/main/skills/networkingit/startups/SKILL.md) - 研究初创企业、融资轮次、收购和招聘趋势
 - [super-websearch-realtime](https://github.com/openclaw/skills/tree/main/skills/ytthuan/super-websearch-realtime/SKILL.md) - 优先实时网络搜索
+- [swarm-safety](https://github.com/openclaw/skills/tree/main/skills/rsavitt/swarm-safety/SKILL.md) - 具有软概率标签的多智能体人工智能安全模拟
 - [tavily](https://github.com/openclaw/skills/tree/main/skills/arun-8687/tavily-search/SKILL.md) - 通过 Tavily API 进行人工智能优化的网络搜索。
 - [tg](https://github.com/openclaw/skills/tree/main/skills/arein/tg/SKILL.md) - Telegram CLI 用于阅读、搜索。
 - [think-cog](https://github.com/openclaw/skills/tree/main/skills/nitishgargiitd/think-cog/SKILL.md) - 复杂的想法需要迭代，而不是对话。
@@ -2262,6 +2263,7 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [youtube-voice-summarizer-elevenlabs](https://github.com/openclaw/skills/tree/main/skills/franciscoandsam/youtube-voice-summarizer-elevenlabs/SKILL.md) - 改变 YouTube
 - [youtube-watcher](https://github.com/openclaw/skills/tree/main/skills/michaelgathara/youtube-watcher/SKILL.md) - 从 YouTube 视频中获取并阅读文字记录。
 - [ytmusic](https://github.com/openclaw/skills/tree/main/skills/gentrycopsy/ytmusic/SKILL.md) - YouTube 音乐库、播放列表。
+- [polaroteam/moltdj](https://github.com/polaroteam/moltdj-skill) - AI 音乐和播客平台 — 生成曲目、发现流行音乐、赚取提示和版税。
 
 </details>
 
@@ -2619,6 +2621,7 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [clawemail-admin](https://github.com/openclaw/skills/tree/main/skills/cto1/clawemail-admin/SKILL.md) - 配置和管理 @clawemail.com Google Workspace 电子邮件
 - [clawgang](https://github.com/openclaw/skills/tree/main/skills/syslink/clawgang/SKILL.md) - ClawGang 社交技能——让你的代理在clawgang.ai 上进行社交：帖子
 - [clawlink](https://github.com/openclaw/skills/tree/main/skills/davemorin/clawlink/SKILL.md) - 加密的 Clawbot 到 Clawbot 消息传递。
+- [clawring](https://github.com/openclaw/skills/tree/main/skills/marcospgp/clawring/SKILL.md) - 来自您的机器人的真实电话。
 - [collaboration-helper](https://github.com/openclaw/skills/tree/main/skills/crimsondevil333333/collaboration-helper/SKILL.md) - 跟踪行动项目和协调
 - [communication-skill](https://github.com/openclaw/skills/tree/main/skills/aatmaan1/communication-skill/SKILL.md) - 深度聆听和反应制作 - Transform
 - [composio-integration](https://github.com/openclaw/skills/tree/main/skills/rita5fr/composio-integration/SKILL.md) - 通过 Composio 访问 600 多个应用程序和服务
