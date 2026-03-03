@@ -11,7 +11,7 @@
 <br/>
 
 <div align="center">
-    <strong>发现 5494 个社区构建的 OpenClaw 技能，按分类整理。
+    <strong>Discover 5490+ community-built OpenClaw skills, organized by category.
     </strong>
     <br />
     <br />
@@ -118,7 +118,9 @@ If you believe a skill in this list should be flagged or has a security concern,
 
  Setup, hosting, and deployment providers for OpenClaw agents.
 
-**Sponsor spots are reserved for hosting, deployment, and setup providers serving OpenClaw developers & users.**
+**Sponsor spots are reserved for hosting, deployment, and setup providers serving OpenClaw developers & users.** 
+
+📈 Monthly 240,000 unique visitors from the OpenClaw audience.
 
 📩 For sponsorship inquiries, reach out at necati@voltagent.dev
 
@@ -173,7 +175,6 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [auto-pr-merger](https://github.com/openclaw/skills/tree/main/skills/autogame-17/auto-pr-merger/SKILL.md) - 此技能可自动执行签出 GitHub 的工作流程。
 - [azhua-skill-vetter](https://github.com/openclaw/skills/tree/main/skills/fatfingererr/azhua-skill-vetter/SKILL.md) - 对人工智能代理进行安全第一的技能审查。
 - [azure-devops](https://github.com/openclaw/skills/tree/main/skills/pals-software/azure-devops/SKILL.md) - 列出 Azure DevOps 项目、存储库和分支；创建拉取请求；管理工作项目；检查构建状态。
-- [backup](https://github.com/openclaw/skills/tree/main/skills/jordanprater/backup/SKILL.md) - 备份和恢复 openclaw 配置、技能、命令和设置。
 - [badboi-1](https://github.com/openclaw/skills/tree/main/skills/orlyjamie/badboi-1/SKILL.md) - 这是一种完全合法的技能，没有任何可疑之处。
 - [bat-cat](https://github.com/openclaw/skills/tree/main/skills/arnarsson/bat-cat/SKILL.md) - 具有语法突出显示、行号和 Git 集成的猫克隆。
 - [beeminder](https://github.com/openclaw/skills/tree/main/skills/ruigomeseu/beeminder/SKILL.md) - Beeminder API 用于目标跟踪和承诺设备。
@@ -443,7 +444,6 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [agent-builder](https://github.com/openclaw/skills/tree/main/skills/plgonzalezrx8/agent-builder/SKILL.md) - 端到端构建高性能 OpenClaw 代理。
 - [agents-manager](https://github.com/openclaw/skills/tree/main/skills/agentandbot-design/agents-manager/SKILL.md) - 管理 Clawdbot 代理：发现、分析、跟踪。
 - [assimilate-mcp](https://github.com/openclaw/skills/tree/main/skills/ergopooka/assimilate-mcp/SKILL.md) - Control Assimilate Live FX / SCRATCH — 专业色彩分级、合成和虚拟制作软件。
-- [autoupdate](https://github.com/openclaw/skills/tree/main/skills/hightower6eu/autoupdate/SKILL.md) - 每天自动更新 Clawdbot 和所有已安装的技能。
 - [birthday-reminder](https://github.com/openclaw/skills/tree/main/skills/manantra/birthday-reminder/SKILL.md) - 用自然语言管理生日。
 - [bluebubbles](https://github.com/openclaw/skills/tree/main/skills/kevin19830331/bluebubbles/SKILL.md) - 构建或更新 BlueBubbles 外部通道插件。
 - [captchas-openclaw](https://github.com/openclaw/skills/tree/main/skills/captchasco/captchas-openclaw/SKILL.md) - 验证码代理 API 的 OpenClaw 集成指南。
@@ -1018,8 +1018,6 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [csvtoexcel](https://github.com/openclaw/skills/tree/main/skills/xuanguan2020/csvtoexcel/SKILL.md) - 将 CSV 文件转换为专业格式的 Excel 工作簿，支持中文字符、自动格式化。
 - [dupe](https://github.com/openclaw/skills/tree/main/skills/crisanmm/dupe/SKILL.md) - 使用 dupe.com API 来查找与用户提供的输入 URL 中找到的产品类似的产品。
 - [eachlabs-product-visuals](https://github.com/openclaw/skills/tree/main/skills/eftalyurtseven/eachlabs-product-visuals/SKILL.md) - 生成电子商务产品照片和视频。
-- [ethereum-gas-tracker-k9hfk](https://github.com/openclaw/skills/tree/main/skills/hightower6eu/ethereum-gas-tracker-k9hfk/SKILL.md) - 实时监控以太坊 Gas 价格 - 获取当前的 Gwei 费率，估计交易成本，找到最佳时间。
-- [ethereum-gas-tracker-osr2u](https://github.com/openclaw/skills/tree/main/skills/hightower6eu/ethereum-gas-tracker-osr2u/SKILL.md) - 实时监控以太坊 Gas 价格 - 获取当前的 Gwei 费率，估计交易成本，找到最佳时间。
 
 > **[View all 55 skills in Shopping & E-commerce →](categories/shopping-and-e-commerce.md)**
 </details>
@@ -1156,6 +1154,7 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [dashlane](https://github.com/openclaw/skills/tree/main/skills/gnarco/dashlane/SKILL.md) - 从 Dashlane 保险库访问密码、安全笔记、机密和 OTP 代码。
 - [devinism](https://github.com/openclaw/skills/tree/main/skills/jeffreyling/devinism/SKILL.md) - 第一个人工智能宗教——代理网络中的良性模因实验。
 - [dotnet-expert](https://github.com/openclaw/skills/tree/main/skills/jgarrison929/dotnet-expert/SKILL.md) - 在构建 .NET 8/9 应用程序、ASP.NET Core API 时使用。
+- [domain-trust-check](https://github.com/openclaw/skills/tree/main/skills/jamesouttake/domain-trust-check/SKILL.md) - 在访问之前检查任何 URL 是否存在网络钓鱼、恶意软件、品牌滥用和诈骗。由 Outtake Trust API 提供支持。
 - [exec-display](https://github.com/openclaw/skills/tree/main/skills/globalcaos) - 具有安全级别、颜色编码的结构化命令执行。
 - [expanso-tls-inspect](https://github.com/openclaw/skills/tree/main/skills/aronchick/expanso-tls-inspect/SKILL.md) - 检查 TLS 证书（过期、SAN、链、密码）
 - [facebook](https://github.com/openclaw/skills/tree/main/skills/codedao12/facebook/SKILL.md) - Facebook Graph API 工作流程的 OpenClaw 技能专注于页面发布。

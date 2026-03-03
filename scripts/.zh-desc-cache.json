@@ -3525,5 +3525,6 @@
   "Protect your OpenClaw assistant from prompt injection.": "保护您的 OpenClaw 助手免遭即时注入。",
   "Scan OpenClaw skills for malicious patterns.": "扫描 OpenClaw 技能中的恶意模式。",
   "Security and vulnerability scanner for OpenClaw code.": "OpenClaw 代码的安全和漏洞扫描器。",
-  "Use when building Towns Protocol bots - covers SDK.": "构建 Towns Protocol 机器人时使用 - 涵盖 SDK。"
+  "Use when building Towns Protocol bots - covers SDK.": "构建 Towns Protocol 机器人时使用 - 涵盖 SDK。",
+  "Check any URL for phishing, malware, brand abuse, and scams before visiting. Powered by the Outtake Trust API.": "在访问之前检查任何 URL 是否存在网络钓鱼、恶意软件、品牌滥用和诈骗。由 Outtake Trust API 提供支持。"
 }
