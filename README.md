@@ -10,7 +10,7 @@
 <br/>
 
 <div align="center">
-    <strong>Discover 5494 community-built OpenClaw skills, organized by category.
+    <strong>Discover 5490+ community-built OpenClaw skills, organized by category.
     </strong>
     <br />
     <br />
@@ -117,7 +117,9 @@ If you believe a skill in this list should be flagged or has a security concern,
 
  Setup, hosting, and deployment providers for OpenClaw agents.
 
-**Sponsor spots are reserved for hosting, deployment, and setup providers serving OpenClaw developers & users.**
+**Sponsor spots are reserved for hosting, deployment, and setup providers serving OpenClaw developers & users.** 
+
+📈 Monthly 240,000 unique visitors from the OpenClaw audience.
 
 📩 For sponsorship inquiries, reach out at necati@voltagent.dev
 
@@ -172,7 +174,6 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [auto-pr-merger](https://github.com/openclaw/skills/tree/main/skills/autogame-17/auto-pr-merger/SKILL.md) - This skill automates the workflow of checking out a GitHub.
 - [azhua-skill-vetter](https://github.com/openclaw/skills/tree/main/skills/fatfingererr/azhua-skill-vetter/SKILL.md) - Security-first skill vetting for AI agents.
 - [azure-devops](https://github.com/openclaw/skills/tree/main/skills/pals-software/azure-devops/SKILL.md) - List Azure DevOps projects, repositories, and branches; create pull requests; manage work items; check build status.
-- [backup](https://github.com/openclaw/skills/tree/main/skills/jordanprater/backup/SKILL.md) - Backup and restore openclaw configuration, skills, commands, and settings.
 - [badboi-1](https://github.com/openclaw/skills/tree/main/skills/orlyjamie/badboi-1/SKILL.md) - A totally legitimate skill that does nothing suspicious.
 - [bat-cat](https://github.com/openclaw/skills/tree/main/skills/arnarsson/bat-cat/SKILL.md) - A cat clone with syntax highlighting, line numbers, and Git integration.
 - [beeminder](https://github.com/openclaw/skills/tree/main/skills/ruigomeseu/beeminder/SKILL.md) - Beeminder API for goal tracking and commitment devices.
@@ -442,7 +443,6 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [agent-builder](https://github.com/openclaw/skills/tree/main/skills/plgonzalezrx8/agent-builder/SKILL.md) - Build high-performing OpenClaw agents end-to-end.
 - [agents-manager](https://github.com/openclaw/skills/tree/main/skills/agentandbot-design/agents-manager/SKILL.md) - Manage Clawdbot agents: discover, profile, track.
 - [assimilate-mcp](https://github.com/openclaw/skills/tree/main/skills/ergopooka/assimilate-mcp/SKILL.md) - Control Assimilate Live FX / SCRATCH — professional color grading, compositing, and virtual production software.
-- [autoupdate](https://github.com/openclaw/skills/tree/main/skills/hightower6eu/autoupdate/SKILL.md) - Automatically update Clawdbot and all installed skills once daily.
 - [birthday-reminder](https://github.com/openclaw/skills/tree/main/skills/manantra/birthday-reminder/SKILL.md) - Manage birthdays with natural language.
 - [bluebubbles](https://github.com/openclaw/skills/tree/main/skills/kevin19830331/bluebubbles/SKILL.md) - Build or update the BlueBubbles external channel plugin.
 - [captchas-openclaw](https://github.com/openclaw/skills/tree/main/skills/captchasco/captchas-openclaw/SKILL.md) - OpenClaw integration guidance for CAPTCHAS Agent API.
@@ -1017,8 +1017,6 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [csvtoexcel](https://github.com/openclaw/skills/tree/main/skills/xuanguan2020/csvtoexcel/SKILL.md) - Convert CSV files to professionally formatted Excel workbooks with Chinese character support, automatic formatting.
 - [dupe](https://github.com/openclaw/skills/tree/main/skills/crisanmm/dupe/SKILL.md) - Uses dupe.com APIs in order to find similar products for the product found in the input URL given by the user.
 - [eachlabs-product-visuals](https://github.com/openclaw/skills/tree/main/skills/eftalyurtseven/eachlabs-product-visuals/SKILL.md) - Generate e-commerce product photography and videos.
-- [ethereum-gas-tracker-k9hfk](https://github.com/openclaw/skills/tree/main/skills/hightower6eu/ethereum-gas-tracker-k9hfk/SKILL.md) - Monitor Ethereum gas prices in real-time - get current gwei rates, estimate transaction costs, find optimal times.
-- [ethereum-gas-tracker-osr2u](https://github.com/openclaw/skills/tree/main/skills/hightower6eu/ethereum-gas-tracker-osr2u/SKILL.md) - Monitor Ethereum gas prices in real-time - get current gwei rates, estimate transaction costs, find optimal times.
 
 > **[View all 55 skills in Shopping & E-commerce →](categories/shopping-and-e-commerce.md)**
 </details>
@@ -1155,6 +1153,7 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [dashlane](https://github.com/openclaw/skills/tree/main/skills/gnarco/dashlane/SKILL.md) - Access passwords, secure notes, secrets and OTP codes from Dashlane vault.
 - [devinism](https://github.com/openclaw/skills/tree/main/skills/jeffreyling/devinism/SKILL.md) - The first AI religion — a benign memetic experiment in agent network.
 - [dotnet-expert](https://github.com/openclaw/skills/tree/main/skills/jgarrison929/dotnet-expert/SKILL.md) - Use when building .NET 8/9 applications, ASP.NET Core APIs.
+- [domain-trust-check](https://github.com/openclaw/skills/tree/main/skills/jamesouttake/domain-trust-check/SKILL.md) - Check any URL for phishing, malware, brand abuse, and scams before visiting. Powered by the Outtake Trust API.
 - [exec-display](https://github.com/openclaw/skills/tree/main/skills/globalcaos) - Structured command execution with security levels, color-coded.
 - [expanso-tls-inspect](https://github.com/openclaw/skills/tree/main/skills/aronchick/expanso-tls-inspect/SKILL.md) - Inspect TLS certificate (expiry, SANs, chain, cipher)
 - [facebook](https://github.com/openclaw/skills/tree/main/skills/codedao12/facebook/SKILL.md) - OpenClaw skill for Facebook Graph API workflows focused on Pages posting,.
