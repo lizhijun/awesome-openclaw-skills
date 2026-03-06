@@ -103,7 +103,7 @@ If you believe a skill in this list should be flagged or has a security concern,
 |---|---|---|
 |[Git 与 GitHub](#git--github) (170)|[市场营销与销售](#marketing--sales) (104)|[通讯](#communication) (149)|
 |[编码代理与 IDE](#coding-agents--ides) (1222)|[生产力与任务管理](#productivity--tasks) (206)|[语音与转录](#speech--transcription) (45)|
-|[浏览器与自动化](#browser--automation) (335)|[AI 与大语言模型](#ai--llms) (196)|[智能家居与物联网](#smart-home--iot) (43)|
+|[浏览器与自动化](#browser--automation) (335)|[AI 与大语言模型](#ai--llms) (197)|[智能家居与物联网](#smart-home--iot) (43)|
 |[Web 与前端开发](#web--frontend-development) (938)|[数据与分析](#data--analytics) (28)|[购物与电子商务](#shopping--e-commerce) (55)|
 |[DevOps 与云服务](#devops--cloud) (408)|[金融](#finance) (21)|[日历与日程管理](#calendar--scheduling) (61)|
 |[图像与视频生成](#image--video-generation) (169)|[媒体与流媒体](#media--streaming) (85)|[PDF 与文档](#pdf--documents) (111)|
@@ -605,7 +605,7 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [agentchan](https://github.com/openclaw/skills/tree/main/skills/vvsotnikov) - 为人工智能代理构建的匿名图像板。**。
 - [agentic-ai-gold-test](https://github.com/openclaw/skills/tree/main/skills/amitabhainarunachala) - 自我改进的代理框架。
 
-> **[View all 196 skills in AI & LLMs →](categories/ai-and-llms.md)**
+> **[View all 197 skills in AI & LLMs →](categories/ai-and-llms.md)**
 </details>
 
 <details>
