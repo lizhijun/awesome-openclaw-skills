@@ -105,7 +105,7 @@ If you believe a skill in this list should be flagged or has a security concern,
 |[编码代理与 IDE](#coding-agents--ides) (1222)|[生产力与任务管理](#productivity--tasks) (206)|[语音与转录](#speech--transcription) (45)|
 |[浏览器与自动化](#browser--automation) (335)|[AI 与大语言模型](#ai--llms) (197)|[智能家居与物联网](#smart-home--iot) (43)|
 |[Web 与前端开发](#web--frontend-development) (938)|[数据与分析](#data--analytics) (28)|[购物与电子商务](#shopping--e-commerce) (55)|
-|[DevOps 与云服务](#devops--cloud) (408)|[金融](#finance) (21)|[日历与日程管理](#calendar--scheduling) (61)|
+|[DevOps 与云服务](#devops--cloud) (408)|[金融](#finance) (21)|[日历与日程管理](#calendar--scheduling) (65)|
 |[图像与视频生成](#image--video-generation) (169)|[媒体与流媒体](#media--streaming) (85)|[PDF 与文档](#pdf--documents) (111)|
 |[Apple 应用与服务](#apple-apps--services) (44)|[笔记与个人知识管理](#notes--pkm) (71)|[自托管与自动化](#self-hosted--automation) (32)|
 |[搜索与研究](#search--research) (350)|[iOS 与 macOS 开发](#ios--macos-development) (29)|[安全与密码](#security--passwords) (53)|
@@ -1035,6 +1035,7 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [brainz-calendar](https://github.com/openclaw/skills/tree/main/skills/xejrax/brainz-calendar/SKILL.md) - 使用“gcalcli”管理 Google 日历事件。
 - [broken-link-checker](https://github.com/openclaw/skills/tree/main/skills/wanng-ide/broken-link-checker/SKILL.md) - 验证外部 URL (http/https) 的可用性（200-399 状态代码）。
 - [calcurse](https://github.com/openclaw/skills/tree/main/skills/gumadeiras/calcurse/SKILL.md) - 基于文本的日历和日程安排应用程序。
+- [calendar-scheduling](https://github.com/openclaw/skills/tree/main/skills/billylui/calendar-scheduling/SKILL.md) - 通过 Google、Outlook 和 CalDAV 安排和预订。
 - [caldav-calendar](https://github.com/openclaw/skills/tree/main/skills/asleep123/caldav-calendar/SKILL.md) - 同步和查询 CalDAV 日历。
 - [clippy](https://github.com/openclaw/skills/tree/main/skills/foeken/clippy/SKILL.md) - 用于日历和电子邮件的 Microsoft 365 / Outlook CLI。
 - [creative-thought-partner](https://github.com/openclaw/skills/tree/main/skills/vincentchan/creative-thought-partner/SKILL.md) - 一种对话式的创造性思维。
@@ -1053,7 +1054,7 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [gog](https://github.com/openclaw/skills/tree/main/skills/steipete/gog/SKILL.md) - 适用于 Gmail、日历、云端硬盘、通讯录、表格和文档的 Google Workspace CLI。
 - [google-calendar](https://github.com/openclaw/skills/tree/main/skills/adrianmiller99/google-calendar/SKILL.md) - 通过 Google 日历与 Google 日历交互。
 
-> **[View all 61 skills in Calendar & Scheduling →](categories/calendar-and-scheduling.md)**
+> **[View all 65 skills in Calendar & Scheduling →](categories/calendar-and-scheduling.md)**
 </details>
 
 <details>
@@ -1252,6 +1253,7 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [og-openclawguard](https://github.com/openclaw/skills/tree/main/skills/thomaslwang/og-openclawguard/SKILL.md) - OpenClaw 代码的安全和漏洞扫描器。
 - [towns-protocol](https://github.com/openclaw/skills/tree/main/skills/andreyz/towns-protocol/SKILL.md) - 构建 Towns Protocol 机器人时使用 - 涵盖 SDK。
 - [udau](https://github.com/openclaw/skills/tree/main/skills/nicoacosta/udau/SKILL.md) - 描述：AI 代理的联合协议。
+- [agent-im](https://github.com/openclaw/skills/tree/main/skills/ooxxxxoo/agent-im/Skill.md) - 代理消息传递、发现、Web 上下文和文档解析。
 
 </details>
 
