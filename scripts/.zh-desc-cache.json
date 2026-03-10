@@ -3528,5 +3528,6 @@
   "Use when building Towns Protocol bots - covers SDK.": "构建 Towns Protocol 机器人时使用 - 涵盖 SDK。",
   "Check any URL for phishing, malware, brand abuse, and scams before visiting. Powered by the Outtake Trust API.": "在访问之前检查任何 URL 是否存在网络钓鱼、恶意软件、品牌滥用和诈骗。由 Outtake Trust API 提供支持。",
   "Schedule and book across Google, Outlook, and CalDAV.": "通过 Google、Outlook 和 CalDAV 安排和预订。",
-  "Agent messaging, discovery, web context, and document parsing.": "代理消息传递、发现、Web 上下文和文档解析。"
+  "Agent messaging, discovery, web context, and document parsing.": "代理消息传递、发现、Web 上下文和文档解析。",
+  "Fetch arXiv LaTeX source, list sections, extract abstracts.": "获取 arXiv LaTeX 源代码，列出部分，提取摘要。"
 }

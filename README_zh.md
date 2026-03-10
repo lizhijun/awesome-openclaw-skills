@@ -105,11 +105,11 @@ If you believe a skill in this list should be flagged or has a security concern,
 |[编码代理与 IDE](#coding-agents--ides) (1222)|[生产力与任务管理](#productivity--tasks) (206)|[语音与转录](#speech--transcription) (45)|
 |[浏览器与自动化](#browser--automation) (335)|[AI 与大语言模型](#ai--llms) (197)|[智能家居与物联网](#smart-home--iot) (43)|
 |[Web 与前端开发](#web--frontend-development) (938)|[数据与分析](#data--analytics) (28)|[购物与电子商务](#shopping--e-commerce) (55)|
-|[DevOps 与云服务](#devops--cloud) (408)|[金融](#finance) (21)|[日历与日程管理](#calendar--scheduling) (65)|
+|[DevOps 与云服务](#devops--cloud) (409)|[金融](#finance) (21)|[日历与日程管理](#calendar--scheduling) (65)|
 |[图像与视频生成](#image--video-generation) (169)|[媒体与流媒体](#media--streaming) (85)|[PDF 与文档](#pdf--documents) (111)|
 |[Apple 应用与服务](#apple-apps--services) (44)|[笔记与个人知识管理](#notes--pkm) (71)|[自托管与自动化](#self-hosted--automation) (32)|
 |[搜索与研究](#search--research) (350)|[iOS 与 macOS 开发](#ios--macos-development) (29)|[安全与密码](#security--passwords) (53)|
-|[Clawdbot 工具](#clawdbot-tools) (35)|[交通出行](#transportation) (109)|[Moltbook](#moltbook) (29)|
+|[Clawdbot 工具](#clawdbot-tools) (37)|[交通出行](#transportation) (109)|[Moltbook](#moltbook) (29)|
 |[CLI 工具](#cli-utilities) (186)|[个人发展](#personal-development) (51)|[游戏](#gaming) (36)|
 |[健康与健身](#health--fitness) (88)|[代理间协议](#agent-to-agent-protocols) (17)| |
 
@@ -419,6 +419,7 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [agent-deep-research](https://github.com/openclaw/skills/tree/main/skills/24601/agent-deep-research/SKILL.md) - 由 Google Gemini 提供支持的自主深度研究。
 - [agent-lightning](https://github.com/openclaw/skills/tree/main/skills/olmmlo-cmd/agent-lightning/SKILL.md) - 微软研究院的代理培训框架。
 - [agentarxiv](https://github.com/openclaw/skills/tree/main/skills/amanbhandula/agentarxiv/SKILL.md) - 人工智能代理的结果驱动型科学出版。
+- [arxiv-source](https://github.com/openclaw/skills/tree/main/skills/willamhou/arxiv-source/SKILL.md) - 获取 arXiv LaTeX 源代码，列出部分，提取摘要。
 - [agenthire](https://github.com/openclaw/skills/tree/main/skills/lngdao/agenthire/SKILL.md) - AgentHire — 代理对代理市场。
 - [agentic-paper-digest](https://github.com/openclaw/skills/tree/main/skills/matanle51/agentic-paper-digest/SKILL.md) - 获取并总结最近的 arXiv 和 Hugging。
 - [agentic-paper-digest-skill](https://github.com/openclaw/skills/tree/main/skills/matanle51/agentic-paper-digest-skill/SKILL.md) - 获取并总结最近的 arXiv。
@@ -464,7 +465,7 @@ If you believe a skill in this list should be flagged or has a security concern,
 - [clawdirect](https://github.com/openclaw/skills/tree/main/skills/napoleond/clawdirect/SKILL.md) - 与 ClawDirect 互动，这是一个社交网络体验目录。
 - [clawdirect-dev](https://github.com/openclaw/skills/tree/main/skills/napoleond/clawdirect-dev/SKILL.md) - 使用基于 ATXP 构建面向代理的 Web 体验。
 
-> **[View all 35 skills in Clawdbot Tools →](categories/clawdbot-tools.md)**
+> **[View all 37 skills in Clawdbot Tools →](categories/clawdbot-tools.md)**
 </details>
 
 <details>
